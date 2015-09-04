@@ -186,7 +186,7 @@
 	{
 		display: inline-block;
 		padding: 0em 3em;
-		background: #af1641;
+		background: #FA6900;
 		border-radius: 7px;
 		letter-spacing: 0.20em;
 		line-height: 4em;
@@ -216,7 +216,7 @@
 
 	.title
 	{
-		margin-bottom: 3em;
+		margin-bottom: 1.5em;
 	}
 
 	.title h2
@@ -310,7 +310,7 @@
 
 	#header-wrapper
 	{
-		background: #af1641;
+		background: #FA6900;
 	}
 
 	#header
@@ -340,6 +340,11 @@
 		text-decoration: none;
 		/*text-transform: uppercase;*/
 		color: #FFF;
+		font-size: 35px;
+	}
+
+	#logo img {
+		margin-top: -1em;
 	}
 
 /*********************************************************************************/
@@ -377,14 +382,14 @@
 
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
-		background: #dc572e;
+		background: #F38630;
 		border-radius: 7px;
 		color: #FFF;
 	}
 
 	#menu .current_page_item a
 	{
-		background: #af1641;
+		background: #FA6900;
 		color: #FFF;
 	}
 
@@ -400,16 +405,18 @@
 	{
 		overflow: hidden;
 		padding: 7em 0em 5em 0em;
-		background: #af1641;
+		background: #FA6900;
 		background-size: cover;
 		text-align: center;
 		color: rgba(255,255,255,.8);
+		background-image: url('images/banner.jpg');
 	}
 
 	#banner .title
 	{
 		margin-bottom: 1em;
 		text-transform: uppercase !important;
+		background: rgba(0,0,0,.5);
 	}
 
 	#banner .title h2
@@ -425,7 +432,7 @@
 	#banner .button
 	{
 		margin-top: 3em;
-		background: #dc572e !important;
+		background: #F38630 !important;
 	}
 
 /*********************************************************************************/
@@ -434,8 +441,9 @@
 
 	#page
 	{
-		padding: 5em 0em;
+		padding-top: 5em;
 		text-align: center;
+		border-bottom: 1px solid grey;
 	}
 
 	#page .button
@@ -476,7 +484,7 @@
 	#copyright
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 1em 0em;
 		border-top: 1px solid rgba(255,255,255,0.08);
 	}
 
@@ -501,7 +509,7 @@
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		background: #af1641;
+		background: #FA6900;
 		color: rgba(255,255,255,.8);
 		text-align: center;
 	}
@@ -516,7 +524,7 @@
 		background: #FFF;
 		margin-top: 3em;
 		font-size: 1em;
-		color: #af1641;
+		color: #FA6900;
 	}
 
 	#featured img
@@ -539,13 +547,14 @@
 /* Featured                                                                      */
 /*********************************************************************************/
 
-.box
-{
-	padding: 3em 2em 2em 2em;
-	border: 1px solid rgba(0,0,0,0.1);
-	border-radius: 8px;
+	.box
+	{
+		margin: 1em 1em 1em 1em;
+		padding: 1em 1em 1em 1em;
+		border: 1px solid rgba(0,0,0,0.1);
+		border-radius: 8px;
 		text-align: center;
-}
+	}
 
 
 	#extra
@@ -572,5 +581,9 @@
 		font-size: 3em;
 	}
 
+	#team {
+		margin-top: 3em;
+		text-align: center;
+	}
 
 
