@@ -556,6 +556,19 @@
 		text-align: center;
 	}
 
+	.box img {
+		width: 250px;
+		max-height: 250px;
+	}
+
+	.box h3 {
+		color: ;
+	}
+	.box h4 {
+		color: grey;
+		font-weight: light;
+	}
+
 
 	#extra
 	{
