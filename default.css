@@ -186,7 +186,7 @@
 	{
 		display: inline-block;
 		padding: 0em 3em;
-		background: #FA6900;
+		background: black;
 		border-radius: 7px;
 		letter-spacing: 0.20em;
 		line-height: 4em;
@@ -310,7 +310,7 @@
 
 	#header-wrapper
 	{
-		background: #FA6900;
+		background: black;
 	}
 
 	#header
@@ -382,14 +382,14 @@
 
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
-		background: #F38630;
+		background: grey;
 		border-radius: 7px;
 		color: #FFF;
 	}
 
 	#menu .current_page_item a
 	{
-		background: #FA6900;
+		background: black;
 		color: #FFF;
 	}
 
@@ -405,7 +405,7 @@
 	{
 		overflow: hidden;
 		padding: 7em 0em 5em 0em;
-		background: #FA6900;
+		background: black;
 		background-size: cover;
 		text-align: center;
 		color: rgba(255,255,255,.8);
@@ -509,7 +509,7 @@
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		background: #FA6900;
+		background: black;
 		color: rgba(255,255,255,.8);
 		text-align: center;
 	}
@@ -524,7 +524,7 @@
 		background: #FFF;
 		margin-top: 3em;
 		font-size: 1em;
-		color: #FA6900;
+		color: black;
 	}
 
 	#featured img
