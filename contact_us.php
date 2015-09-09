@@ -38,7 +38,7 @@ Released   : 20140322
           <li><a href="index.html" accesskey="1" title="">Home</a></li>
           <li><a href="about_us.html" accesskey="2" title="">About Us</a></li>
           <li><a href="#" accesskey="2" title="">Events</a></li>
-          <li class="active"><a href="contact_us.php" accesskey="5" title="">Contact Us</a></li>
+          <li class="active"><a href="contact_us.html" accesskey="5" title="">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -56,6 +56,18 @@ Released   : 20140322
 
 <div class="container">
   <!-- <iframe src="https://docs.google.com/forms/d/1ehaX6eEV4UM7xBmxT1ip48fe4dAQXR1TlgOWjd9nKqY/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+
+  <?php
+    $to      = 'avinashgosavi88@gmail.com';
+    $subject = 'the subject';
+    $message = 'hello';
+    $headers = 'From: webmaster@example.com' . "\r\n" .
+        'Reply-To: webmaster@example.com' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+    mail($to, $subject, $message, $headers);
+  ?>
+
 </div>
 
 </div>
