@@ -58,14 +58,14 @@ Released   : 20140322
   <!-- <iframe src="https://docs.google.com/forms/d/1ehaX6eEV4UM7xBmxT1ip48fe4dAQXR1TlgOWjd9nKqY/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
 
   <?php
-    $to      = 'avinashgosavi88@gmail.com';
-    $subject = 'the subject';
-    $message = 'hello';
-    $headers = 'From: webmaster@example.com' . "\r\n" .
-        'Reply-To: webmaster@example.com' . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+  // the message
+  $msg = "First line of text\nSecond line of text";
 
-    mail($to, $subject, $message, $headers);
+  // use wordwrap() if lines are longer than 70 characters
+  $msg = wordwrap($msg,70);
+
+  // send email
+  mail("avinashgosavi88@gmail.com","My subject",$msg);
   ?>
 
 </div>
