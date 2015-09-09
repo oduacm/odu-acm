@@ -10,7 +10,7 @@
     $message = $_POST['message'];
     $from = 'Contact Form';
     $to = 'acm@cs.odu.edu';
-    $subject = 'Message from Contact Demo ';
+    $subject = 'Message from Contact Us page Acm main site';
 
     $body ="From: $name\n E-Mail: $email\n Message:\n $message";
     // Check if name has been entered
