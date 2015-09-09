@@ -79,7 +79,7 @@ Released   : 20140322
         <ul>
           <li><a href="index.html" accesskey="1" title="">Home</a></li>
           <li><a href="about_us.html" accesskey="2" title="">About Us</a></li>
-          <li><a href="#" accesskey="2" title="">Events</a></li>
+          <li><a href="events.html" accesskey="2" title="">Events</a></li>
           <li class="active"><a href="contact_us.html" accesskey="5" title="">Contact Us</a></li>
         </ul>
       </div>
